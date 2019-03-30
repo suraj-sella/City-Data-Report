@@ -1,0 +1,82 @@
+@media (min-width: 320px){
+    body{
+        background-color: #e9feff;
+    }
+    .headsection{
+        background: #005669;
+        padding: 0.5rem 3rem;
+        color: white !important;
+    }
+    .footsection{
+        background: #004655;
+        padding: 0.5rem;
+        color: white !important;
+        font-size: 0.8rem;
+    }
+    .footsection a{
+        color: #00f3ff;
+    }
+    .midsection{
+        background: #79ebef1c;
+        padding: 1rem;
+        color: #194655 !important;
+    }
+    .table {
+        background-color: #ffffff96;
+    }
+    .table .thead-dark th{
+        background-color: #194655;
+    }
+    .table-bordered th, .table-bordered td {
+        border: 1px solid #19465542;
+    }
+    .table-bordered {
+        border: 1px solid #194655;
+    }
+    .page-item.active .page-link {
+        background-color: #194655;
+        border-color: #194655;
+    }
+    .page-link {
+        color: #194655;
+        border: 1px solid #19465557;
+    }
+    .page-link {
+        padding: 0.5rem 0.4rem;
+        margin-left: -4px;
+        line-height: 0.25;
+    }
+}
+@media (min-width: 375px){
+    .form-inline .form-control {
+        width: 15rem;
+    }
+    .page-link {
+        padding: 0.5rem 0.52rem;
+        margin-left: -1px;
+        line-height: 1.25;
+    }
+}
+@media (min-width: 425px){
+    .form-inline .form-control {
+        width: 20rem;
+    }
+    .page-link {
+        padding: 0.5rem 0.7rem;
+        margin-left: -1px;
+    }
+}
+@media (min-width: 768px){
+    .form-inline .form-control {
+        width: 12rem;
+    }
+    .page-link {
+        padding: 0.5rem 0.7rem;
+        margin-left: -1px;
+    }
+}
+@media (min-width: 1440px){
+    .form-inline .form-control {
+        width: 11rem;
+    }
+}
